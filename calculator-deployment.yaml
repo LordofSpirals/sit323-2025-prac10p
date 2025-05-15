@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: kubernetes-calc
-          image: s222520626/kubernetes-calc-repo:latest
+          image: australia-southeast2-docker.pkg.dev/sit323-25t1-copley-14a816f/calculator-repo/calculator-app:latest
           ports:
             - containerPort: 8080
 ---
